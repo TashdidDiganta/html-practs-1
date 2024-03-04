@@ -696,3 +696,202 @@ footer{
 }
 
 
+/* Logo Maker Banner Css Start */
+
+.logo-maker-banner{
+    margin-bottom: 90px;
+}
+
+.banner-wrapper{
+    display: flex;
+    color: #fff;
+    overflow: hidden;
+    background-color: #446ee7;
+  
+}
+
+.banner-left-content{
+    width: 100px;
+}
+
+.description-wrapper{
+    width: 475px;
+    padding-top: 50px;
+    padding-left: 76px;
+}
+
+.description-wrapper span{
+    display: block;
+    padding-bottom: 16px;
+}
+
+.description-wrapper h2{
+    color: #fff;
+    font-size: 34px;
+    line-height: 39px;
+    margin-bottom: 8px;
+    padding-bottom: 0;
+}
+
+.description-wrapper p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fiverr-logo-btn:hover{
+    color: #3453a8;
+    background-color: #b9c9f7;
+}
+
+.banner-right-content img{
+    display: block;
+    width: 100%;
+}
+
+
+/* Made One Style Start */
+
+.made-one{
+    background-color: #f5f5f5;
+    padding: 90px 0px;
+}
+
+.made-item{
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.see-more{
+    color: #446ee7!important;
+}
+
+.made-item a img{
+    border-radius: 4px 4px 0 0;
+    display: block;
+    height: 260px;
+    width: 325px;
+}
+
+.project-info{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 0 12px 16px;
+    -webkit-box-sizing: border-box;
+}
+
+.project-info a img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.info-img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.project-info .gig-info{
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.project-info .gig-info b{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.project-info .gig-info a{
+    font-size: 14px;
+    line-height: 21px;
+    color: #95979d;
+}
+
+/* Package Style Start */
+
+.package{
+    padding: 96px 0px;
+}
+
+.title-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.title-wrapper a{
+    color: #222325;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.package-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pack-item a img{
+    border-radius: 4px;
+    display: block;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    top: 50%;
+    margin-bottom: 16px;
+}
+
+.pack-item a h3{
+    font-size: 18px;
+    color: #404145;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+/* Sing up Style Start */
+
+.singup{
+    margin: 90px 0px;
+}
+
+.singup-wrapper{
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #45091b;
+}
+
+.singup-text{
+    width: 800px;
+    padding-left: 76px;
+    display: block;
+}
+
+.singup-text h2{
+    color: #fff;
+    font-size: 48px;
+    line-height: 56px;
+    padding-bottom: 40px;
+}
+
+.join-now{
+    color: #fff;
+    background: #19a463;
+}
+
+.singup-img img{
+    display: block;
+    margin-right: 75px;
+}
+
