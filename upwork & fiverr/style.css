@@ -363,6 +363,8 @@ footer{
 }
 
 
+
+
 /* Brands Css Start */
 
 .brands{
@@ -396,6 +398,7 @@ footer{
 
 .service-wrapper{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-between;
 }
@@ -432,23 +435,55 @@ footer{
     border-radius: 4px;
 }
 
-.slide-btn{
-    display: flex;
-    justify-content: space-between;
+.carousel-control-prev{
+    left: 0;
 }
 
-.slide-btn a{
-    align-items: center;
-    background-color: #b4b0b0;
-    border: 0;
-    border-radius: 50%;
-    bottom: 0;
-    height: 48px;
-    text-align: center;
+
+.carousel-control-next,
+.carousel-control-prev{
+    position: absolute;
     top: 0;
-    width: 48px;
+    bottom: 0;
+    right: 0;
     z-index: 1;
-    box-shadow: #404145;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    height: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    transition: opacity .15s ease;
+    transform: translateY(175px);
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    padding: 22px;
+    line-height: 0;
+    color: #62646a;
+    font-size: 16px;
+    transition: 0.3s;
+    background: none;
+    background: #fff;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+  background: rgb(224, 224, 224);
+  color: #57595c;
 }
 
 .service-wrapper .left, .service-wrapper.right{
@@ -485,6 +520,7 @@ footer{
 
 .proposition-wrappper{
     display: flex;
+    position: relative;
 }
 
 .proposition_left_content ul {
@@ -664,6 +700,7 @@ footer{
 
 .testimonial-wrapper{
     display: flex;
+    position: relative;
     justify-content: space-between;
 }
 
@@ -834,6 +871,7 @@ footer{
 
 .package-wrapper{
     display: flex;
+    position: relative;
     justify-content: space-between;
 }
 
